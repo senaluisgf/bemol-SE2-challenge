@@ -54,6 +54,7 @@ Todas as Rotas podem ser facilmente **encontrada e executadas na página inicial
 <p align='center' justify='center'>
   <a href="https://dotnet.microsoft.com/pt-br/download/dotnet/8.0" target="blank"><img src="https://miro.medium.com/v2/resize:fit:1200/1*z2AhVTYkSSkQJ2lg30GGcA.png" width="210" alt=".NET 8 Logo" /></a>
   <a href="https://grpc.io/" target="blank"><img src="https://grpc.io/img/logos/grpc-icon-color.png" width="210" alt="gRPC Logo" /></a>
+  <a href="https://www.mongodb.com/" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg" width="310" alt="MongoDB Logo" /></a>
   <a href="https://aws.amazon.com/pt/sqs/" target="blank"><img src="https://blog.knoldus.com/wp-content/uploads/2021/09/sqs.png" width="210" alt="AmazonSQS Logo" /></a>
 </p>
 
