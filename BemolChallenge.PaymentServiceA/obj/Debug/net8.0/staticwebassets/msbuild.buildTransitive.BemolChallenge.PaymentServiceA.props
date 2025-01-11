@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\BemolChallenge.PaymentServiceA.props" />
+</Project>

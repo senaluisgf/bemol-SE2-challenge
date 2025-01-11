@@ -1,0 +1,46 @@
+version: '3.8'
+
+services:
+  # bemol_serviceA:
+  #   build:
+  #     context: ./BemolChallenge.PaymentServiceA
+  #     dockerfile: Dockerfile
+  #   image: bemol_servicea
+  #   ports:
+  #     - 8080:8080
+  #     - 8081:8081
+  #   networks:
+  #     - bemol_network
+
+  # bemol_serviceB:
+  #   build:
+  #     context: ./BemolChallenge.PaymentServiceB
+  #     dockerfile: Dockerfile
+  #   image: bemol_serviceb
+  #   ports:
+  #     - 8082:8082
+  #     - 8083:8083
+  #   networks:
+  #     - bemol_network
+  #   depends_on:
+  #     - mongo
+
+  mongo:
+    image: mongo:latest
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=rootpassword
+      - MONGO_INITDB_DATABASE=bemol_db
+    ports:
+      - 27017:27017
+    volumes:
+      - ./mongo-init:/docker-entrypoint-initdb.d
+    networks:
+      - bemol_network
+
+volumes:
+  mongo_data:
+
+networks:
+  bemol_network:
+    driver: bridge

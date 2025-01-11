@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PaymentServiceA", "PaymentServiceA", "{CA1C1F7C-4269-4691-9767-33ECA4CC9FA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BemolChallenge.PaymentServiceA", "BemolChallenge.PaymentServiceA\BemolChallenge.PaymentServiceA.csproj", "{5AE76A5A-11D2-43E2-916F-91379ECBC1C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PaymentServiceB", "PaymentServiceB", "{661E7496-8470-415A-AB13-68FE8C33B994}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BemolChallenge.PaymentServiceB", "BemolChallenge.PaymentServiceB\BemolChallenge.PaymentServiceB.csproj", "{01E747C9-B809-4BC7-8E03-34C854D9F50E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AE76A5A-11D2-43E2-916F-91379ECBC1C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AE76A5A-11D2-43E2-916F-91379ECBC1C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AE76A5A-11D2-43E2-916F-91379ECBC1C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AE76A5A-11D2-43E2-916F-91379ECBC1C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01E747C9-B809-4BC7-8E03-34C854D9F50E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01E747C9-B809-4BC7-8E03-34C854D9F50E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01E747C9-B809-4BC7-8E03-34C854D9F50E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01E747C9-B809-4BC7-8E03-34C854D9F50E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5AE76A5A-11D2-43E2-916F-91379ECBC1C1} = {CA1C1F7C-4269-4691-9767-33ECA4CC9FA1}
+		{01E747C9-B809-4BC7-8E03-34C854D9F50E} = {661E7496-8470-415A-AB13-68FE8C33B994}
+	EndGlobalSection
+EndGlobal

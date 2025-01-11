@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "ddtSOlbWnMLAyzQrShqW5rlIikwVZhntvBbbdgi5CVs=",
+  "Source": "BemolChallenge.PaymentServiceA",
+  "BasePath": "_content/BemolChallenge.PaymentServiceA",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

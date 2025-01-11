@@ -1,0 +1,6 @@
+@BemolChallenge.PaymentServiceA_HostAddress = http://localhost:5231
+
+GET {{BemolChallenge.PaymentServiceA_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
